@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <meta name="description" content="Welcome to YOUK STUDIO digital showcase, where creativity meets innovation.
+         Explore a curated collection of my finest works, each a testament to my passion for WEB Development.
+          From captivating designs to ingenious solutions, every project embodies my dedication to excellence and my 
+          relentless pursuit of perfection. Whether you're seeking inspiration, collaboration, or simply to witness the
+           power of imagination in action, you'll find it all here. Join me on a journey through the realms of artistry
+            and technology, where every pixel tells a story, and every click unveils a masterpiece. Let's embark together
+             on a voyage of discovery and transformation. Welcome to the future of creativity. Welcome to YOUK STUDIO portfolio.">
+
+             <meta name="keywords" content="Portfolio,Design,Projects,Web Design,web development,Animation,">
+
+             <meta name="robots" content="noindex, nofollow">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       <title>YOUK Studio</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+                integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+                <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+                <!-- our CSS file-->
+        <link rel="stylesheet" href="fontawesomeS/css/all.css">
+
+        <!-- our FAVICON-->
+        <link rel="icon" type="image/png" href="image/YOUK LOGO.png">
+
+         <!--  Bootstrap Bundle  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+               
+                <style>
+
+* {
+  box-sizing: border-box;
+    }
+    #write{
+      font-weight: bold;
+    }
+    #write:hover{
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+ -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+ -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+font-weight: bold;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #292222; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7e6868; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dfb5b5; 
+}
+.navbar {
+      overflow: hidden;
+      background-color: #333; /* Initial background color */
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Animation for continuously changing background colors */
+    @keyframes colorChange {
+      0% { background-color: #d2c0cc71; }
+      25% { background-color: #abaea593; }
+      50% { background-color: #86888f79; }
+      75% { background-color: #989a8c63; }
+      100% { background-color: #9e959576; }
+    }
+
+    .navbar {
+      animation: colorChange 5s infinite; /* Adjust the duration of the animation as needed */
+    }
+    body {
+    cursor: url(image/cursor.png) ;
+}
+</style>
+
+
+</head>
+
+
+
+<body  style="background:rgb(0, 0, 0) ;">
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-light " style="background-color: rgb(144 139 131);; margin-top: 11px;border-radius: 12px;">
+        
+        <div class="waviy">
+            <span style="--i:1">Y</span>
+            <span style="--i:2">O</span>
+            <span style="--i:3">U</span>
+            <span style="--i:4">K</span>
+            <span style="--i:4">-</span>
+
+            <span style="--i:5">S</span>
+            <span style="--i:6">T</span>
+            <span style="--i:7">U</span>
+            <span style="--i:8">D</span>
+            <span style="--i:9">I</span>
+            <span style="--i:10">O</span>
+
+
+           </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       
+      
+        <div    style="margin-left: 215px;"  class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a id="write" style="margin-right: 50px; " class="nav-link" href="#">  Home   </a>
+            </li>
+            <li class="nav-item">
+              <a id="write" style="margin-right: 50px; " class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a id="write" style="margin-right: 50px; " class="nav-link" href="#skills">Skills</a>
+            </li>
+              
+            </li>
+            <li class="nav-item">
+              <a id="write" style="margin-right: 50px; " class="nav-link" href="#portfolio">  Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a id="write" style="margin-right: 50px; " class="nav-link" href="#contact ">  Contact Us</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <br>
+      <style>
+        .younes{
+            color: rgb(160, 18, 226);
+                font-family:'Courier New', Courier, monospace;
+        }
+        .seven span {
+  color: #bfd5b2;
+  opacity: 0;
+  transform: translate(-150px, 0) scale(.3);
+  animation: leftRight .5s forwards;
+}
+
+
+@keyframes leftRight {
+  40% {
+    transform: translate(50px, 0) scale(.7);
+    opacity: 1;
+    color: #13c4e4;
+  }
+
+  60% {
+    color: #0aae49;
+  }
+
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
+}
+.animate span:nth-of-type(2) {
+  animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+  animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+  animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+  animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+  animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+  animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+  animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+  animation-delay: .4s;
+}
+
+
+.smoky {
+  display: inline-block;
+  text-shadow: 0 0 0 whitesmoke;
+  animation: smoky 5s 3s both;
+}
+
+.smoky{
+  animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 40px whitesmoke;
+  }
+  to {
+    transform:
+      translate3d(15rem,-8rem,0)
+      rotate(-40deg)
+      skewX(70deg)
+      scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 40px whitesmoke; }
+  to {
+    transform:
+      translate3d(18rem,-8rem,0)
+      rotate(-40deg) 
+      skewX(-70deg)
+      scale(2);
+     text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+.year{
+    font-size: large;
+    color: #13c4e4;
+
+}
+.year:hover{
+    font-size: larger;
+    color:#12af68;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; /* Place the video behind other content */
+    }
+/* DEMO-SPECIFIC STYLES */
+.typewriter  {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+ /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+
+      </style>
+      <section class="container">
+        <div class="row">
+            <div style="color: white;" class="col-sm-6">
+                <h2 class="typewriter" style="margin-top: 20px;font-family:'Courier New', Courier, monospace;"> <span >  <span >H</span><span>I</span>&nbsp;
+
+                </span><span ><span>I</span><span>T</span><span>'</span><span>S</span></span>
+
+                </span><span ><span>M</span><span>E</span></span>&nbsp;</span></h2>
+
+                <h1  class="younes"> <b style="color: whitesmoke;text-shadow: 5px 2px #9f1010;">I'm</b> 
+                  <b style="text-shadow: 5px 2px #512071;"><i> 
+                     <div class="animate seven">
+
+                    <span>Y</span><span>o</span><span>u</span><span>n</span><span>e</span><span>s</span>      </i></b> 
+                         </h1>
+                
+                <h5  style="margin-left: 20px;font-family:'Courier New', Courier, monospace;font-size: larger;">I'm a <b>Professional Web Developer</b> . 
+                  My Main Goal Is To Create Web Sites And Satisfied The Local & Global Clients By Web Development Solutions</h5>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="images">
+                        <video autoplay muted loop playsinline id="video">
+                            <source src="image/Black Yellow Futuristic Welcome To Video YouTube Intro (1).mp4" type="video/mp4" >
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                </div>
+                </div>
+       </section>
+      
+    <br>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p id="about" style="color: aliceblue;
+                font-size: larger;
+                font-family:'Courier New', Courier, monospace;">Back in <i><b class="year"> 2020</b></i> , I decided to try my hand at creating WEB apps ,So i went to take a course in a school  .
+                     <br>Fast-forward to today, and I’ve  built web sites for my self just for educating purpose,
+                      an application, a pastry website, and add some good pics and fantastic fonts with a brilliant animation.  </p>
+
+                   <p style="color: aliceblue;
+                   font-size: larger;
+                   font-family:'Courier New', Courier, monospace;"> <i><b> My main focus these days</b></i>  is building web sites and to create to all the shops in my city websites even the barber shop . 
+                    <br> I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood.                       
+                    
+                  
+            </div>
+        </div>
+        
+    </section>
+
+    <style>
+  
+
+    
+    .animated-heading::before {
+      animation: shine 1s infinite;
+    }
+
+    @keyframes shine {
+      0% {
+        color: #3498db;
+        text-shadow: none;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+      }
+      50% {
+        color: #e74c3c;
+        text-shadow: 0 0 10px #e74c3c, 0 0 20px #e74c3c, 0 0 30px #e74c3c;
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+      100% {
+        color: #b0bfc9;
+        text-shadow: none;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+      }
+    }
+
+  
+    .skill-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 200px;
+      height: 300px;
+      background-color: #cee1c8a2;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin: 10px;
+      transform: scale(1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .skill-card:hover {
+      transform: scale(1.05);
+    }
+
+    .skill-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .skill-image img {
+      width: 100%;
+      height: 100%;
+ 
+    }
+
+    .skill-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    color: aliceblue;
+    }
+
+
+    .skill-description {
+      text-align: center;
+      margin-bottom: 10px;
+      opacity: 0;
+      animation: fadeIn 4s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .skill-progress {
+      width: 100%;
+      height: 10px;
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .skill-progress-fill {
+      height: 100%;
+      width: 0;
+      background-color: #3498db;
+      transition: width 1s ease-in-out;
+    }
+    </style>
+    
+    <h1 id="skills" class="animated-heading my-projects">MY SKILLS</h1>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-sm-4">
+           <div class="skill-card">
+      <div class="skill-image">
+        <img src="image/HTML.png" alt="HTML Logo">
+      </div>
+      <div class="skill-name">HTML</div>
+      <div class="skill-description">
+        HTML is the standard markup language for creating web pages.
+      </div>
+      <div class="skill-progress">
+        <div class="skill-progress-fill" style="width: 100%;"></div>
+      </div>
+    </div>
+        </div>
+
+        
+        <div class="col-sm-4">
+          <div class="skill-card">
+      <div class="skill-image">
+        <img src="image/CSS.png" alt="CSS Logo">
+      </div>
+      <div class="skill-name">CSS</div>
+      <div class="skill-description">
+        CSS is a style sheet language used for describing the look.
+      </div>
+      <div class="skill-progress">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+    </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="skill-card">
+      <div class="skill-image">
+        <img src="image/JS.png" alt="js Logo">
+      </div>
+      <div class="skill-name">JS</div>
+      <div class="skill-description">
+        JavaScript is a versatile programming language       </div>
+      <div class="skill-progress">
+        <div class="skill-progress-fill" style="width: 75%;"></div>
+      </div>
+    </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+
+
+        <div class="col-sm-4">
+          
+            <div class="skill-card">
+        <div class="skill-image">
+          <img src="image/PHP.png" alt="php logo">
+        </div>
+        <div class="skill-name">PHP</div>
+        <div class="skill-description">
+          PHP is a server-side scripting language designed for web development.
+        </div>
+        <div class="skill-progress">
+          <div class="skill-progress-fill" style="width: 60%;"></div>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-sm-4">
+          
+        <div class="skill-card">
+    <div class="skill-image">
+      <img src="image/BOOTSTRAP.jpg" alt="bos Logo">
+    </div>
+    <div class="skill-name">BOOTSTRAP</div>
+    <div class="skill-description">
+      Bootstrap is a popular CSS framework for building responsive and visually appealing web pages.
+    </div>
+    <div class="skill-progress">
+      <div class="skill-progress-fill" style="width: 100%;"></div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="col-sm-4">
+          
+    <div class="skill-card">
+<div class="skill-image">
+  <img src="image/ANDROID.jpg" alt="AND Logo">
+</div>
+<div class="skill-name">ANDROID APPS</div>
+<div class="skill-description">
+  Android Apps development involves creating applications for the Android operating system 
+</div>
+<div class="skill-progress">
+  <div class="skill-progress-fill" style="width: 50%;"></div>
+</div>
+</div>
+</div>
+
+
+
+
+  
+
+
+
+       </div> 
+      </div>
+    </section>
+<br>
+<style>
+  .project-card {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .project-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+      color: #fff;
+      text-align: center;
+    }
+
+    .project-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .project-description {
+      font-size: 14px;
+    }
+
+    .project-link {
+      margin-top: 10px;
+      text-decoration: none;
+      color: #c07f3e;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+.my-projects {
+      color: #333; /* Initial color */
+      text-align: center;
+      text-decoration: underline;
+    }
+
+</style>
+
+
+
+<h1 id="portfolio" class="my-projects" ST>My Projects</h1>
+
+    <section class="container">
+      <div class="row">
+
+        <div class="col-sm-4">
+        
+<div class="project-card">
+  <img src="image/DELICES.png" alt="Project Image" class="project-image">
+  <div class="project-overlay">
+    <div class="project-title">DELICES</div>
+    <div class="project-description">
+      DELICES Pastry Shop .
+    </div>
+    <a href="https://delicespastry.000webhostapp.com/" class="project-link" target="_blank">Visit Project</a>
+  </div>
+</div><br>
+</div>
+
+
+<div class="col-sm-4">
+        
+  <div class="project-card">
+    <img src="image/gims.png" alt="Project Image" class="project-image">
+    <div class="project-overlay">
+      <div class="project-title">GIMS Music</div>
+      <div class="project-description">
+        GIMS Music APP.
+      </div>
+      <a href="https://play.google.com/store/apps/details?id=com.younes01.apk" class="project-link" target="_blank">Visit Project</a>
+    </div>
+  </div><br>
+  </div>
+       
+
+  <div class="col-sm-4">
+        
+    <div class="project-card">
+      <img src="image/coming soon.png" alt="Project Image" class="project-image">
+      <div class="project-overlay">
+     
+        
+        <a href="https://play.google.com/store/apps/details?id=com.younes01.apk" class="project-link" target="_blank"></a>
+      </div>
+    </div><br>
+    </div>
+
+
+      </div>
+    </section>
+
+<style>
+   footer {
+      color: white;
+      padding: 40px; /* Increased padding for a larger footer */
+      text-align: center;
+      animation: changeColor 5s linear infinite;
+    }
+    
+    @keyframes changeColor {
+      0% { background-color: #bcbab25f; }
+      50% { background-color: #5449494a; }
+      100% { background-color: #5f5d5846; }
+    }
+
+    .fa, .fas {
+    font-family: 'FontAwesome';
+}
+
+.social-icon {
+  color: #b14747;
+  background: #fffbf7; 
+  font-size:1em;
+  border-radius: 50%;
+  line-height: 2.2em;
+  width: 2.1em;
+  height: 2.1em;
+  text-align: center;
+  display: inline-block;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    transition:0.3s;
+}
+.facebook:hover{
+  background: #0d1dc8;
+  color: #ffffff;
+
+}
+.instagram:hover{
+  background:linear-gradient(150deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80) ;
+  color: #ffffff;
+
+}
+.phone:hover{
+  color: #ffffff; 
+  background:   #665CAC ;
+
+}
+.envelope:hover{
+  color: #dcd911; 
+  background:   #d97828 ;
+
+}
+</style>
+
+<footer>
+ <div id="contact" class=" social-links ">
+    <ul class="list-inline mt-5">
+       <li class="list-inline-item "><a  href="https://www.facebook.com/profile.php?id=100094542162286"><i title="facebook"  class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></a></li>
+       <li class="list-inline-item"><a href="https://www.instagram.com/youk_studio/"><i title="instagram" class="fa fa-instagram social-icon instagram" aria-hidden="true"></i></a></li>
+       <li class="list-inline-item"><a href="mailto: younesskouda@gmail.com"><i title="e-mail" class="fa fa-envelope social-icon envelope " aria-hidden="true"></i></a></li>
+       <li class="list-inline-item"><a href="viber://chat?number=0676915511"><i title="viber" class="fa fa-phone social-icon phone" aria-hidden="true"></i></a></li>
+      </ul>
+</div>
+  <p>&copy; 2020 Designed by YOUK STUDIO</p> <!-- Copyright notice -->
+</footer>
+    
+
+      <script>
+  // Function to generate a random color
+  function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+
+  // Function to change the color of h1
+  function changeColor() {
+    const h1Elements = document.getElementsByClassName('my-projects');
+    for (let i = 0; i < h1Elements.length; i++) {
+      h1Elements[i].style.color = getRandomColor(); // Set a random color
+    }
+  }
+
+  // Change the color every second
+  setInterval(changeColor, 1000); 
+      </script>
+</body>
+
+
+
+</html>
